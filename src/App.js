@@ -22,8 +22,8 @@ function App() {
       <h1>Tennis Spot</h1>
       <navbar className="navbar">
           {/* <NavLink to="" className='separation'><i class="fa-solid fa-house"></i></NavLink> */}
-          <NavLink to="/administration" className='administration'>Administration</NavLink>
-          <NavLink to="/entrainement" className='entrainement'>Entrainement</NavLink>
+          <NavLink to="/Administration" className='administration'>Administration</NavLink>
+          <NavLink to="/Entrainement" className='entrainement'>Entrainement</NavLink>
       </navbar>
       <Outlet />
     </div>

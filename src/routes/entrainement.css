@@ -1,0 +1,74 @@
+.grille {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 1px;
+  grid-template-areas: 
+  "hg hc hc hd"
+  "hg hbg hbd hd"
+  "bg bgb bgd bd"
+  "bg bc bc bd";
+}
+
+.select {
+  border: 2px solid black;
+}
+
+.grid-item {
+  border: 1px solid white;
+}
+
+.grid1, .grid5 {
+  background-color: black;
+  grid-area: hg;
+}
+
+.grid2, .grid3 {
+  background-color: black;
+  grid-area: hc;
+}
+
+.grid4, .grid8 {
+  background-color: rgb(0, 0, 0);
+  grid-area: hd;
+}
+
+.grid6 {
+  background-color: rgb(0, 0, 0);
+  grid-area: hbg;
+}
+
+.grid7 {
+  background-color: rgb(0, 0, 0);
+  grid-area: hbd;
+}
+
+.grid9, .grid13 {
+  background-color: rgb(0, 0, 0);
+  grid-area: bg;
+}
+
+.grid10, .grid11 {
+  background-color: rgb(0, 0, 0);
+  grid-area: bc;
+}
+
+.grid12, .grid16 {
+  background-color: rgb(0, 0, 0);
+  grid-area: bd;
+}
+
+.grid14 {
+  background-color: rgb(0, 0, 0);
+  grid-area: bgb;
+}
+
+.grid15 {
+  background-color: rgb(0, 0, 0);
+  grid-area: bgd;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import './administration.css';
 
-const administration = () => {
+const Administration = () => {
   return (
     <>
       <h2>administration</h2>
@@ -9,4 +9,4 @@ const administration = () => {
   )
 }
 
-export default administration
+export default Administration
